@@ -1,0 +1,9 @@
+[package]
+name = "mirsdrapi-rsp"
+version = "0.1.0"
+authors = ["italic <italic.rendezvous@gmail.com>"]
+edition = "2018"
+
+[dependencies.mirsdrapi-rsp-sys]
+version = "2.13.1"
+path = "../mirsdrapi-rsp-sys"
