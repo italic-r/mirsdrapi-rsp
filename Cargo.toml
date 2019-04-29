@@ -2,7 +2,14 @@
 name = "mirsdrapi-rsp"
 version = "0.1.0"
 authors = ["italic <italic.rendezvous@gmail.com>"]
+repository = "https://github.com/italic-r/mirsdrapi-rsp"
 edition = "2018"
+
+publish = false
+categories = ["api-bindings", "hardware-support"]
+keywords = ["sdr", "rsp", "sdrplay", "amateur", "radio"]
+license = "Apache-2.0"
+readme = "README.md"
 
 [dependencies.mirsdrapi-rsp-sys]
 version = "2.13.1"
